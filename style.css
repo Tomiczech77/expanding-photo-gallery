@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img1 {
+    background-image: url(img/img1.jpg);
+}
+
+.img2 {
+    background-image: url(img/img2.jpg);
+}
+
+.img3 {
+    background-image: url(img/img3.jpg);
+}
+
+.img4 {
+    background-image: url(img/img4.jpg);
+}
+
+.img5 {
+    background-image: url(img/img5.jpg);
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+}
+
+.slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+
+    flex: 0.4;
+}
