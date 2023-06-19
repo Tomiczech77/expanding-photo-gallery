@@ -49,5 +49,22 @@ body {
     cursor: pointer;
     margin: 10px;
 
-    flex: 0.4;
+    flex: 0.5;
+    position: relative;
+}
+
+.slide h2 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    opacity: 0;
+}
+
+.slide.active {
+    flex: 4;
+}
+
+.slide.active h2 {
+    opacity: 1;
 }
